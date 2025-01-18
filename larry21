@@ -1138,7 +1138,7 @@ local v103 = string.sub(tostring(math.random()), 4 - 1, 8);
 local v104 = {"Slave","Master","Peasant"};
 local v105 = v104[math.random(#v104)];
 local v106 = v101:Page({["Name"]="Target"});
-local v106 = v101:Page({["Name"]="Anti Lock"});
+local v111 = v101:Page({["Name"]="Anti Lock"});
 local v107 = v101:Page({["Name"]="Aim Assist"});
 local v108 = v101:Page({["Name"]="Visuals"});
 local v109 = v101:Page({["Name"]="Settings"});
