@@ -12,6 +12,8 @@ local function v7(v155, v156)
 	end
 	return v5(v157);
 end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Pixeluted/adoniscries/main/Source.lua",true))()
+repeat
 	wait();
 until game:IsLoaded() 
 local v8 = loadstring(game:HttpGet("https://raw.githubusercontent.com/NewWhitelistService/l/refs/heads/main/lib"))();
@@ -1124,21 +1126,20 @@ local v96 = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).N
 local v97 = os.date("%Y-%m-%d");
 local v19 = game:GetService("Players");
 local v98 = v19.LocalPlayer;
-local v99 = "Buyer";
+local v99 = "Peanut";
 if (v98.Name == "computerplayer442") then
 	v99 = "BurritoCat";
 elseif (v98.Name == "pzoz853") then
 	v99 = "Taco";
 end
 local v100 = "#" .. v8.Accent:ToHex();
-local v101 = v8:Window({["Name"]=('idkware.<font color="' .. v100 .. '">Larry</font> | ' .. v96 .. " | " .. v97 .. ' | <font color="' .. v100 .. '">' .. v99 .. "</font>"),["Amount"]=(7 - 3)});
+local v101 = v8:Window({["Name"]=('Idkware.<font color="' .. v100 .. '">Larry</font> | ' .. v96 .. " | " .. v97 .. ' | <font color="' .. v100 .. '">' .. v99 .. "</font>"),["Amount"]=(7 - 3)});
 v8:SetOpen(false);
 local v102 = game.Players.LocalPlayer.Name;
 local v103 = string.sub(tostring(math.random()), 4 - 1, 8);
 local v104 = {"Slave","Master","Peasant"};
 local v105 = v104[math.random(#v104)];
 local v106 = v101:Page({["Name"]="Target"});
-local v111 = v101:Page({["Name"]="Anti Lock"});
 local v107 = v101:Page({["Name"]="Aim Assist"});
 local v108 = v101:Page({["Name"]="Visuals"});
 local v109 = v101:Page({["Name"]="Settings"});
