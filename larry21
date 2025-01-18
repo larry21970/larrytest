@@ -1126,7 +1126,7 @@ local v96 = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).N
 local v97 = os.date("%Y-%m-%d");
 local v19 = game:GetService("Players");
 local v98 = v19.LocalPlayer;
-local v99 = "Buyer";
+local v99 = "Peanut Fuck you bitch ass nigga";
 if (v98.Name == "computerplayer442") then
 	v99 = "BurritoCat";
 elseif (v98.Name == "pzoz853") then
