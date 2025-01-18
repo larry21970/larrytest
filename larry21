@@ -1,6 +1,3 @@
---//lol
---//doitenroi.9941
-
 local v0 = string.char;
 local v1 = string.byte;
 local v2 = string.sub;
@@ -1136,7 +1133,7 @@ elseif (v98.Name == "pzoz853") then
 	v99 = "Taco";
 end
 local v100 = "#" .. v8.Accent:ToHex();
-local v101 = v8:Window({["Name"]=('idkware.<font color="' .. v100 .. '">Tech</font> | ' .. v96 .. " | " .. v97 .. ' | <font color="' .. v100 .. '">' .. v99 .. "</font>"),["Amount"]=(7 - 3)});
+local v101 = v8:Window({["Name"]=('idkware.<font color="' .. v100 .. '">Larry</font> | ' .. v96 .. " | " .. v97 .. ' | <font color="' .. v100 .. '">' .. v99 .. "</font>"),["Amount"]=(7 - 3)});
 v8:SetOpen(false);
 local v102 = game.Players.LocalPlayer.Name;
 local v103 = string.sub(tostring(math.random()), 4 - 1, 8);
