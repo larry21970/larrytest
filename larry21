@@ -12,8 +12,6 @@ local function v7(v155, v156)
 	end
 	return v5(v157);
 end
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Pixeluted/adoniscries/main/Source.lua",true))()
-repeat
 	wait();
 until game:IsLoaded() 
 local v8 = loadstring(game:HttpGet("https://raw.githubusercontent.com/NewWhitelistService/l/refs/heads/main/lib"))();
