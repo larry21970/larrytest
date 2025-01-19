@@ -1,3 +1,16 @@
+
+-- Debugging Start
+local function safe_call(func, ...)
+    if type(func) == 'function' then
+        return func(...)
+    else
+        print("Error: Attempted to call a nil value. Ensure the function is defined correctly.")
+        return nil
+    end
+end
+-- Debugging End
+
+
 ---Test
 local v0 = string.char;
 local v1 = string.byte;
@@ -2101,7 +2114,7 @@ v142.MouseButton1Click:Connect(function()
 	end
 end);
 
--- Added functionalities from test21 --
+-- Updated functionalities integrated --
 
 --[[
 		
@@ -7042,7 +7055,7 @@ do
 				-- 
 				local function setMarkerPos()
 					Lines[1].From = NewVector2(Mouse.X + Gap, (Mouse.Y + Offset) + Gap)
-					Lines[1].To = NewVector2(Mouse.XQ + (Gap * 2.5), (Mouse.Y + Offset) + (Gap * 2.5))
+					Lines[1].To = NewVector2(Mouse.X + (Gap * 2.5), (Mouse.Y + Offset) + (Gap * 2.5))
 					--
 					Lines[2].From = NewVector2(Mouse.X + Gap, (Mouse.Y + Offset) - Gap)
 					Lines[2].To = NewVector2(Mouse.X + (Gap * 2.5), (Mouse.Y + Offset) - (Gap * 2.5))
