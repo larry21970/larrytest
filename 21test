@@ -30,7 +30,7 @@ print("waypoint three")
 
 local Library = {
 		Open = true;
-		Accent = Color3.fromRGB(186, 9, 235);
+		Accent = Color3.fromRGB(179, 161, 197);
 		Pages = {};
 		Sections = {};
 		Flags = {};
@@ -444,7 +444,7 @@ Library.Sections.__index = Library.Sections
 
 			local TextButton = Instance.new("Frame")
 			TextButton.Name = "TextButton"
-			TextButton.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+			TextButton.BackgroundColor3 = Color3.fromRGB(191, 127, 255)
 			TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			TextButton.Position = UDim2.new(0, 6, 0, 22)
 			TextButton.Size = UDim2.new(0, 150, 0, 150)
@@ -4045,7 +4045,7 @@ end)
 						PlayerStatus.Name = "PlayerStatus"
 						PlayerStatus.FontFace = getfontfromindex(2)
 						PlayerStatus.Text = option == game.Players.LocalPlayer and "Local Player" or table.find(Library.Friends, option) and "Friendly" or table.find(Library.Priorities, option) and "Priority" or "None"
-						PlayerStatus.TextColor3 = option == game.Players.LocalPlayer and Color3.fromRGB(0, 170, 255) or table.find(Library.Friends, option) and Color3.fromRGB(0,255,0) or table.find(Library.Priorities, option) and Color3.fromRGB(255,0,0) or Color3.fromRGB(255,255,255)
+						PlayerStatus.TextColor3 = option == game.Players.LocalPlayer and Color3.fromRGB(191, 127, 255) or table.find(Library.Friends, option) and Color3.fromRGB(0,255,0) or table.find(Library.Priorities, option) and Color3.fromRGB(255,0,0) or Color3.fromRGB(255,255,255)
 						PlayerStatus.TextSize = Library.FSize
 						PlayerStatus.TextStrokeTransparency = 0
 						PlayerStatus.TextXAlignment = Enum.TextXAlignment.Left
